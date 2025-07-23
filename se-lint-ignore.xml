@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<!-- CONTENT -->
+	<file path="content.opf">
+		<ignore>
+			<code>m-079</code>
+			<reason>a single short work, not a collection</reason>
+		</ignore>
+	</file>
+	<!-- TITLEPAGE -->
+	<!-- COLOPHON -->
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+	<!-- SVG FILES -->
+	<file path="cover.svg">
+		<ignore>
+			<code>s-028</code>
+			<reason>cover.svg and titlepage.svg title elements don't match</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>

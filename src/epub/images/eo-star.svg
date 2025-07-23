@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<title>Esperanto Star</title>
+	<defs>
+		<!-- Base green metallic gradient for the star -->
+		<linearGradient x1="0%" x2="100%" y1="0%" y2="100%">
+			<stop offset="0%" stop-color="#2a5c20"/>
+			<!-- Dark green shadow -->
+			<stop offset="50%" stop-color="#3d8b30"/>
+			<!-- Mid green -->
+			<stop offset="100%" stop-color="#5cb849"/>
+			<!-- Highlight -->
+		</linearGradient>
+	</defs>
+	<path d="M 50 0         L 61.8 38.2         L 100 38.2         L 69.1 61.8         L 80.9 100         L 50 76.4         L 19.1 100         L 30.9 61.8         L 0 38.2         L 38.2 38.2         Z" fill="url(#starMetallic)" stroke="#1a3a14" stroke-width="0.01"/>
+	<!-- 10 Triangles (Center + Inner + Outer Vertex) -->
+	<g fill-opacity="0.3" stroke="1a3a14" stroke-opacity="0.5" stroke-width="0.01">
+		<!-- Triangle 1 -->
+		<path d="M 50 50 L 50 0 L 61.8 38.2 Z" fill="#5cb849"/>
+		<!-- Triangle 2 -->
+		<path d="M 50 50 L 61.8 38.2 L 100 38.2 Z" fill="#4aa939"/>
+		<!-- Triangle 3 -->
+		<path d="M 50 50 L 100 38.2 L 69.1 61.8 Z" fill="#3d8b30"/>
+		<!-- Triangle 4 -->
+		<path d="M 50 50 L 69.1 61.8 L 80.9 100 Z" fill="#2a5c20"/>
+		<!-- Triangle 5 -->
+		<path d="M 50 50 L 80.9 100 L 50 76.4 Z" fill="#5cb849"/>
+		<!-- Triangle 6 -->
+		<path d="M 50 50 L 50 76.4 L 19.1 100 Z" fill="#4aa939"/>
+		<!-- Triangle 7 -->
+		<path d="M 50 50 L 19.1 100 L 30.9 61.8 Z" fill="#3d8b30"/>
+		<!-- Triangle 8 -->
+		<path d="M 50 50 L 30.9 61.8 L 0 38.2 Z" fill="#2a5c20"/>
+		<!-- Triangle 9 -->
+		<path d="M 50 50 L 0 38.2 L 38.2 38.2 Z" fill="#5cb849"/>
+		<!-- Triangle 10 -->
+		<path d="M 50 50 L 38.2 38.2 L 50 0 Z" fill="#4aa939"/>
+	</g>
+</svg>
